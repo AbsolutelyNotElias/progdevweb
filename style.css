@@ -100,3 +100,26 @@ button {
 button:hover {
     background-color: #ff9933;
 }
+
+/* Style spécifique pour la page "Qui je suis" */
+
+/* Conteneur pour la section plus large dans la page "Qui je suis" */
+.wide-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.wide-text-container {
+    width: 80%; /* Rectangle plus large */
+    background-color: rgba(200, 200, 200, 0.9); /* Gris légèrement opaque */
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wide-text-container p {
+    margin: 20px 0;
+}
